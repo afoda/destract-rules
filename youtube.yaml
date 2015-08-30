@@ -1,0 +1,13 @@
+---
+
+matches:
+  - "youtube.com"
+
+rules:
+  - description: Watch sidebar
+    selector: ".watch-sidebar"
+    action: remove
+
+  - description: Video wall
+    selector: ".videowall-endscreen"
+    action: remove
