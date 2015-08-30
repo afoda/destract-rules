@@ -1,0 +1,26 @@
+---
+
+matches:
+  - "stackoverflow.com"
+  - "stackexchange.com"
+
+rules:
+  - description: Hot network questions
+    selector: "#hot-network-questions"
+    action: remove
+
+  - description: Newsletter ad
+    selector: "#newsletter-ad"
+    action: remove
+
+  - description: Job ad
+    selector: "#hireme"
+    action: remove
+
+  - description: Chat feature
+    selector: "#chat-feature"
+    action: remove
+
+  - description: Community bulletin
+    selector: ".module.community-bulletin"
+    action: remove
