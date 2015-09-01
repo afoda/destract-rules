@@ -1,0 +1,8 @@
+---
+
+matches:
+  - "imgur.com"
+
+rules:
+  - description: Gallery sidebar
+    selector: "#side-gallery"
