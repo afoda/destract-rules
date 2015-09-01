@@ -6,3 +6,4 @@ matches:
 rules:
   - description: Gallery sidebar
     selector: "#side-gallery"
+    action: hide
